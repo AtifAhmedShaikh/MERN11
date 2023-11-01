@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  flex-wrap: wrap;
+}
+.wrapper >div{
+  width:3rem;
+  height:3rem;
+  border-radius:1.5rem;
+  display: grid;
+  place-items: center;
+  color: white;
+  background-color: #1abc9c;
+}
+.container p{
+  text-align: center;
+}
+
