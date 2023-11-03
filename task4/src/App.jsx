@@ -1,23 +1,35 @@
 import { useState } from 'react'
 import './App.css'
 function App() {
-  const [boxes,setBoxes]=useState([]);
+  const [numbers,setNumbers]=useState([]);
   const [count,setCount]=useState(0);
-  const handleIncreament=()=>{
-    setBoxes([...boxes,count])
+  const handleIncrement=()=>{
+    setNumbers([...numbers,count])
     setCount((prev)=>prev+1);
+  }
+  const handleRemove=(removeNumber)=>{
+    const filtered=numbers.filter(number=>number!==removeNumber);
+    setNumbers([...filtered]);
+    setCount((prev)=>prev-1)
+  }
+  const handleReset=()=>{
+    setNumbers([]);
+    setCount(0)
   }
   return (
     <>
     <div className='container'>
     <div className="wrapper">
-      {boxes.map(box=>{
-        return <div>{box}</div>
+      {numbers.map(number=>{
+        return <div onClick={()=>handleRemove(number)}>{number}</div>
       })}
     </div>
     <div>
      <p>{count}</p>
-      <button onClick={handleIncreament}>Increament Boxes</button>
+     <div className="button-wrapper">
+      <button onClick={handleIncrement}>Increment Boxes</button>
+      <button onClick={handleReset}>Reset</button>
+     </div>
     </div>
 
     </div>
