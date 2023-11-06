@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh; 
+}
+
+.container{
+  width:45vw;
+}
+.form-wrapper{
+  display:flex;
+  justify-content:space-around;
+  margin-bottom:20px;
+  gap:5px;
+}
+.form-wrapper input{
+  padding:3px 10px;
+  width:70%;
+  border:1px solid gray;
+  border-radius:3px;
+}
+.form-wrapper button,
+.form-wrapper select
+{
+  padding:6px;
+  background-color: #6b9bd1;
+  color:white;
+  border-radius:5px;
+}
+.form-wrapper select{
+  background-color: #ffb24d;
+}
+.todo{
+  display: flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+  padding:5px 5px;
+  border-bottom: 1px solid gray;
+}
+
+
+.todo >div{
+  display: flex;
+  gap:10px;
+}
+.todo span{
+  font-size:13px
+}
+.todo.complete p,
+.todo.complete span
+{
+  color:green !important;
+}
