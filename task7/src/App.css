@@ -1,0 +1,16 @@
+body{
+  height: 100vh;
+  justify-content: center;
+  display:flex;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  gap:30px;
+  margin-bottom:2rem;
+}
+h5{
+  font-size: 3rem;
+  text-align: center;
+}
