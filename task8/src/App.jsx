@@ -1,48 +1,20 @@
 import React, { useEffect, useState }  from 'react';
 import './App.css'
-import Profile from './Profile';
-const Box=()=>{
-  return  <div className='w-5 h-5 bg-green-500 rounded-3xl'></div>
-}
+import Boxes from "./Boxes"
+import { Route, Routes } from 'react-router-dom';
+import Calculator from "./Calculator"
 function App() {
   const [count,setCount]=useState([]);
-  
+  const [isShow,setIsShow] =useState(true);
   return (
     <React.Fragment>
-    <div className='w-18 h-16 flex gap-3 flex-wrap overflow-hidden'>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-    </div>
-    <div className='overflow-hidden w-52 '>
-
-
-    <div className='overflow-x-scroll w-52 gap-3 flex'>
-    <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-      <Box/>
-
-    </div>
-    </div>
-    <Profile/>
+      <input type={isShow?"password":"text"} onChange={()=>} className='border border-gray-300'/>
+      <button onClick={()=>setIsShow(!isShow)}>show {Array("hdsjakdhkjs".length).fill("*",0)} bdfgfdfdgz</button>
+      {}
+      <Routes>
+        <Route path='/' element={<Boxes/>}/>
+        <Route path='/calculator' element={<Calculator/>}/>
+      </Routes>
     </React.Fragment>
   )
 }
