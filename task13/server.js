@@ -1,29 +1,10 @@
-const app = require("./src/app");
+const express=require("express");
 const mongoose=require("mongoose");
 const connectDB = require("./src/database/connection");
+const app = require("./src/app");
+
 const PORT=5000;
-
 connectDB();
-
-
-const tryHandler=async(callback)=>{
-    try {
-        const res=await  callback();
-        return res;
-    } catch (error) {
-        return error;
-    }
-}
-
-const fn=async()=>{
-    const find=await  Promise(resolve=>{
-        setTimeout(()=>{
-            resolve();
-        },2000);
-    });
-}
-
-
 //write movie schema
 const personSchema = new mongoose.Schema({
     name: {

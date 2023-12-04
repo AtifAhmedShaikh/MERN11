@@ -1,9 +1,9 @@
-const express = require("express");
-const router=require("./routes/todo.route.js");
+const express=require("express");
 
-const app = express();
+
+const app=express();
+
 app.use(express.json());
+app.use(express.urlencoded({extended:true,limit:"20kb"}))//allow to Get data from Url of req
 
-app.use("/api/v1/todos",router);
-
-module.exports = app;
+module.exports=app;
