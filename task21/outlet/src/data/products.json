@@ -1,0 +1,129 @@
+[
+    {
+      "productId": 1,
+      "name": "Laptop",
+      "description": "Powerful and portable computing device.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 2,
+      "name": "Smartphone",
+      "description": "High-end mobile phone with advanced features.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 3,
+      "name": "Headphones",
+      "description": "Over-ear headphones with noise cancellation.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 4,
+      "name": "Coffee Maker",
+      "description": "Automatic coffee maker with programmable settings.",
+      "category": "Appliances",
+      "availability": 0
+    },
+    {
+      "productId": 5,
+      "name": "Running Shoes",
+      "description": "Comfortable and lightweight shoes for running.",
+      "category": "Fashion",
+      "availability": 1
+    },
+    {
+      "productId": 6,
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with wireless connectivity.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 7,
+      "name": "Digital Camera",
+      "description": "High-resolution camera for capturing memories.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 8,
+      "name": "Gaming Console",
+      "description": "Video game console for immersive gaming.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 9,
+      "name": "Blender",
+      "description": "Versatile blender for smoothies and food preparation.",
+      "category": "Appliances",
+      "availability": 1
+    },
+    {
+      "productId": 10,
+      "name": "T-shirt",
+      "description": "Casual cotton t-shirt for everyday wear.",
+      "category": "Fashion",
+      "availability": 1
+    },
+    {
+      "productId": 11,
+      "name": "Watch",
+      "description": "Elegant wristwatch with precision timekeeping.",
+      "category": "Fashion",
+      "availability": 1
+    },
+    {
+      "productId": 12,
+      "name": "Wireless Earbuds",
+      "description": "Compact earbuds with wireless connectivity.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 13,
+      "name": "Toaster Oven",
+      "description": "Multifunctional toaster oven for baking and toasting.",
+      "category": "Appliances",
+      "availability": 0
+    },
+    {
+      "productId": 14,
+      "name": "Backpack",
+      "description": "Durable backpack for carrying essentials.",
+      "category": "Fashion",
+      "availability": 1
+    },
+    {
+      "productId": 15,
+      "name": "Fitness Tracker",
+      "description": "Wearable device for monitoring health and fitness.",
+      "category": "Electronics",
+      "availability": 1
+    },
+    {
+      "productId": 16,
+      "name": "Desk Lamp",
+      "description": "Adjustable desk lamp for optimal lighting.",
+      "category": "Home",
+      "availability": 1
+    },
+    {
+      "productId": 17,
+      "name": "Sunglasses",
+      "description": "Stylish sunglasses for sun protection and fashion.",
+      "category": "Fashion",
+      "availability": 1
+    },
+    {
+      "productId": 18,
+      "name": "Portable Charger",
+      "description": "Compact charger for on-the-go device charging.",
+      "category": "Electronics",
+      "availability": 1
+    }
+  ]
+  
